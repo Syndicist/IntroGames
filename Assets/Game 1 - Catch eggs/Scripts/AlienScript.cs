@@ -3,12 +3,6 @@ using System.Collections;
 
 public class AlienScript : MonoBehaviour
 {
-    PlayerSystem myPlayerSystem;
-
-    private void Awake()
-    {
-        myPlayerSystem = GameObject.Find("PlayerSystem").GetComponent<PlayerSystem>();
-    }
     private void Update()
     {
         float max = 20;

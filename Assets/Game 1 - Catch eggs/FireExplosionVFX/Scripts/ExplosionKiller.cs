@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class ExplosionKiller : MonoBehaviour
 {
-
-    // Use this for initialization
-    void Awake()
+    //Destroy object once the audio is finished.
+    private void Update()
     {
-        Destroy(gameObject, 2);
+        if (!GetComponent<AudioSource>().isPlaying)
+            Destroy(gameObject);
     }
 }

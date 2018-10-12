@@ -5,9 +5,21 @@ using UnityEngine;
 public class LaserScript : MonoBehaviour {
 
     public PlayerSystem myPlayerSystem;
+    private AudioSource myAudioSource;
+    public MeshRenderer myMeshRenderer;
+    public BoxCollider myBoxCollider;
+    public AudioClip[] laserSounds;
+
     private void Awake()
     {
         myPlayerSystem = GameObject.Find("PlayerSystem").GetComponent<PlayerSystem>();
+        myMeshRenderer = GetComponent<MeshRenderer>();
+        myBoxCollider = GetComponent<BoxCollider>();
+        myAudioSource = GetComponent<AudioSource>();
+
+        int index = Random.Range(0, laserSounds.Length);
+        myAudioSource.clip = laserSounds[index];
+        myAudioSource.Play();
     }
 
     private void Update()
@@ -17,6 +29,8 @@ public class LaserScript : MonoBehaviour {
         {
             Destroy(gameObject);
         }
+        if (!myAudioSource.isPlaying && !myMeshRenderer.enabled)
+            Destroy(gameObject);
     }
 
     void OnTriggerEnter(Collider other)
@@ -25,7 +39,8 @@ public class LaserScript : MonoBehaviour {
         if(collisionGO.tag == "enemy")
         {
             Destroy(collisionGO);
-            Destroy(gameObject);
+            myMeshRenderer.enabled = false;
+            myBoxCollider.enabled = false;
             myPlayerSystem.theScore++;
         }
     }

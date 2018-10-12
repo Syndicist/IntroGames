@@ -20,6 +20,7 @@ public class ShipScript : MonoBehaviour
     {
         if (myPlayerSystem.gameOver)
         {
+            
             Destroy(gameObject);
         }
         else
