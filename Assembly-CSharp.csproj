@@ -61,41 +61,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Game 1 - Catch eggs\FireExplosionVFX\Scripts\ExplosionKiller.cs" />
-    <Compile Include="Assets\Game 1 - Catch eggs\Scripts\AlienScript.cs" />
-    <Compile Include="Assets\Game 1 - Catch eggs\Scripts\LaserScript.cs" />
-    <Compile Include="Assets\Game 1 - Catch eggs\Scripts\PlayerSystem.cs" />
-    <Compile Include="Assets\Game 1 - Catch eggs\Scripts\ShipScript.cs" />
-    <Compile Include="Assets\Game 1 - Catch eggs\Scripts\SpawnerScript.cs" />
-    <Compile Include="Assets\Game 1 - Catch eggs\VolumetricLines\ExampleScenes\ExampleScripts\CannonBehavior.cs" />
-    <Compile Include="Assets\Game 1 - Catch eggs\VolumetricLines\ExampleScenes\ExampleScripts\CreateSinShapedLineStrip.cs" />
-    <Compile Include="Assets\Game 1 - Catch eggs\VolumetricLines\ExampleScenes\ExampleScripts\ShotBehavior.cs" />
-    <Compile Include="Assets\Game 1 - Catch eggs\VolumetricLines\Scripts\Utils\TransformExtensionMethods.cs" />
-    <Compile Include="Assets\Game 1 - Catch eggs\VolumetricLines\Scripts\VolumetricLineBehavior.cs" />
-    <Compile Include="Assets\Game 1 - Catch eggs\VolumetricLines\Scripts\VolumetricLineSettings.cs" />
-    <Compile Include="Assets\Game 1 - Catch eggs\VolumetricLines\Scripts\VolumetricLineStripBehavior.cs" />
-    <Compile Include="Assets\Game 1 - Catch eggs\VolumetricLines\Scripts\VolumetricLineVertexData.cs" />
-    <Compile Include="Assets\Game 1 - Catch eggs\VolumetricLines\Scripts\VolumetricMultiLineBehavior.cs" />
-    <Compile Include="Assets\Game 2 - Jump game\Scripts\EdgeTrigger.cs" />
-    <Compile Include="Assets\Game 2 - Jump game\Scripts\GameControl.cs" />
-    <Compile Include="Assets\Game 2 - Jump game\Scripts\GameGUI.cs" />
-    <Compile Include="Assets\Game 2 - Jump game\Scripts\Playermovement.cs" />
-    <Compile Include="Assets\Game 3 - Marble game\Scripts\GameoverTrigger.cs" />
-    <Compile Include="Assets\Game 3 - Marble game\Scripts\MarbleCamera.cs" />
-    <Compile Include="Assets\Game 3 - Marble game\Scripts\MarbleControl.cs" />
-    <Compile Include="Assets\Game 3 - Marble game\Scripts\MarbleGameManager.cs" />
-    <Compile Include="Assets\Game 5 - Shooting gallery\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Game 5 - Shooting gallery\Scripts\ObjectSpawner.cs" />
-    <Compile Include="Assets\Game 5 - Shooting gallery\Scripts\PlayerInput.cs" />
-    <Compile Include="Assets\MainMenu\MainMenuScript.cs" />
-    <None Include="Assets\Game 1 - Catch eggs\VolumetricLines\Shaders\_StripShader.cginc" />
-    <None Include="Assets\Game 1 - Catch eggs\VolumetricLines\Shaders\Additive.shader" />
-    <None Include="Assets\Game 1 - Catch eggs\VolumetricLines\Shaders\AlphaBlended.shader" />
-    <None Include="Assets\Game 1 - Catch eggs\VolumetricLines\Shaders\Strip-Additive.shader" />
-    <None Include="Assets\Game 1 - Catch eggs\VolumetricLines\Shaders\Fast-AlphaBlended.shader" />
-    <None Include="Assets\Game 1 - Catch eggs\VolumetricLines\Shaders\Strip-AlphaBlended.shader" />
-    <None Include="Assets\Game 1 - Catch eggs\VolumetricLines\Shaders\Fast-Additive.shader" />
-    <None Include="Assets\Game 1 - Catch eggs\VolumetricLines\Shaders\_SimpleShader.cginc" />
+    <Compile Include="Assets\Game 1\FireExplosionVFX\Scripts\ExplosionKiller.cs" />
+    <Compile Include="Assets\Game 1\FireExplosionVFX\Scripts\MonsterDieNoise.cs" />
+    <Compile Include="Assets\Game 1\Scripts\AlienScript.cs" />
+    <Compile Include="Assets\Game 1\Scripts\LaserScript.cs" />
+    <Compile Include="Assets\Game 1\Scripts\PlayerSystem.cs" />
+    <Compile Include="Assets\Game 1\Scripts\ShipScript.cs" />
+    <Compile Include="Assets\Game 1\Scripts\SpawnerScript.cs" />
+    <Compile Include="Assets\Game 1\VolumetricLines\ExampleScenes\ExampleScripts\CannonBehavior.cs" />
+    <Compile Include="Assets\Game 1\VolumetricLines\ExampleScenes\ExampleScripts\CreateSinShapedLineStrip.cs" />
+    <Compile Include="Assets\Game 1\VolumetricLines\ExampleScenes\ExampleScripts\ShotBehavior.cs" />
+    <Compile Include="Assets\Game 1\VolumetricLines\Scripts\Utils\TransformExtensionMethods.cs" />
+    <Compile Include="Assets\Game 1\VolumetricLines\Scripts\VolumetricLineBehavior.cs" />
+    <Compile Include="Assets\Game 1\VolumetricLines\Scripts\VolumetricLineSettings.cs" />
+    <Compile Include="Assets\Game 1\VolumetricLines\Scripts\VolumetricLineStripBehavior.cs" />
+    <Compile Include="Assets\Game 1\VolumetricLines\Scripts\VolumetricLineVertexData.cs" />
+    <Compile Include="Assets\Game 1\VolumetricLines\Scripts\VolumetricMultiLineBehavior.cs" />
+    <Compile Include="Assets\MainMenu\Scripts\MainMenuScript.cs" />
+    <None Include="Assets\Game 1\VolumetricLines\Shaders\_StripShader.cginc" />
+    <None Include="Assets\Game 1\VolumetricLines\Shaders\Additive.shader" />
+    <None Include="Assets\Game 1\VolumetricLines\Shaders\AlphaBlended.shader" />
+    <None Include="Assets\Game 1\VolumetricLines\Shaders\Strip-Additive.shader" />
+    <None Include="Assets\Game 1\Game1 Readme.txt" />
+    <None Include="Assets\Game 1\VolumetricLines\Shaders\Fast-AlphaBlended.shader" />
+    <None Include="Assets\Game 1\VolumetricLines\Shaders\Strip-AlphaBlended.shader" />
+    <None Include="Assets\Game 1\VolumetricLines\Shaders\Fast-Additive.shader" />
+    <None Include="Assets\Game 1\VolumetricLines\Shaders\_SimpleShader.cginc" />
     <Reference Include="Assembly-UnityScript-firstpass">
       <HintPath>C:/Users/Syndi/Documents/GitHub/IntroGames/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
     </Reference>
