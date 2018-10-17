@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 1037
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -417,16 +417,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Game 1 - Catch eggs/FireExplosionVFX/Prefabs
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Syndi\Documents\GitHub\IntroGames
+  m_LastProjectPath: C:\Users\Syndi\Documents\Local Unity Projects\IntroGamesLocal
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 31}
-    m_SelectedIDs: ae090000
-    m_LastClickedID: 2478
-    m_ExpandedIDs: 00000000ae090000700a0000020b0000040b00009c0c0000b231000000ca9a3b
+    scrollPos: {x: 0, y: 47}
+    m_SelectedIDs: 342f0000
+    m_LastClickedID: 12084
+    m_ExpandedIDs: 00000000342f0000ae2f0000b02f00000e30000010300000c0300000cc30000018310000bc320000c033000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -454,7 +454,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ae090000700a0000020b0000040b00009c0c0000b2310000
+    m_ExpandedIDs: 00000000342f0000ae2f0000b02f00000e30000010300000c0300000cc30000018310000bc320000c0330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -482,7 +482,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c6230000c209000000000000c60b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -614,14 +614,14 @@ MonoBehaviour:
     height: 619
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 375.93490689406593
+  lastFramingTime: 4628.088415846697
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -4.4125323, y: -23.156267, z: 96.90747}
+    m_Target: {x: -3.219904, y: -1.6945746, z: 28.285038}
     speed: 2
-    m_Value: {x: -4.4125323, y: -23.156267, z: 96.90747}
+    m_Value: {x: -3.219904, y: -1.6945746, z: 28.285038}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -649,19 +649,19 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.11405364, y: 0.016982246, z: -0.0019507778, w: -0.9933275}
+    m_Target: {x: -0.04081062, y: -0.0018217587, z: 0.00007338637, w: -0.99916524}
     speed: 2
-    m_Value: {x: -0.114053644, y: 0.016982246, z: -0.0019507778, w: -0.9933275}
+    m_Value: {x: -0.04081062, y: -0.0018217587, z: 0.00007338637, w: -0.99916524}
   m_Size:
-    m_Target: 119.8539
+    m_Target: 38.977962
     speed: 2
-    m_Value: 119.8539
+    m_Value: 38.977962
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.21466653, y: 0.64366084, z: -0.19510244, w: -0.7082048}
+  m_LastSceneViewRotation: {x: 0.054288894, y: -0.014654585, z: 0.0007977078, w: 0.99841744}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -696,7 +696,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: e6fbffff00000000
+    m_ExpandedIDs: a06ff9ff6a70f9ffda71f9fff471f9ff0ca0f9ffd6a0f9ff46a2f9ff60a2f9ffd4edffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
