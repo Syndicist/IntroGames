@@ -80,6 +80,8 @@
     <Compile Include="Assets\Game 2 - Jump game\Scripts\GameControl.cs" />
     <Compile Include="Assets\Game 2 - Jump game\Scripts\GameGUI.cs" />
     <Compile Include="Assets\Game 2 - Jump game\Scripts\Playermovement.cs" />
+    <Compile Include="Assets\Game 3 - Marble game\Misc. Assets\Fantasy Skybox FREE\Demo\Scripts\GE_FantasySkyboxFREE_Demo.cs" />
+    <Compile Include="Assets\Game 3 - Marble game\Misc. Assets\Fantasy Skybox FREE\Demo\Scripts\GE_FantasySkyboxFREE_UIs.cs" />
     <Compile Include="Assets\Game 3 - Marble game\Scripts\GameoverTrigger.cs" />
     <Compile Include="Assets\Game 3 - Marble game\Scripts\MarbleCamera.cs" />
     <Compile Include="Assets\Game 3 - Marble game\Scripts\MarbleControl.cs" />
@@ -87,29 +89,35 @@
     <Compile Include="Assets\Game 5 - Shooting gallery\Scripts\GameManager.cs" />
     <Compile Include="Assets\Game 5 - Shooting gallery\Scripts\ObjectSpawner.cs" />
     <Compile Include="Assets\Game 5 - Shooting gallery\Scripts\PlayerInput.cs" />
+    <Compile Include="Assets\GE Common Assets\GE Toggle Full Screen\Scripts\GE_ToggleFullScreenUI.cs" />
+    <Compile Include="Assets\GE Common Assets\Scripts\GE_UIResponder.cs" />
     <Compile Include="Assets\MainMenu\MainMenuScript.cs" />
     <None Include="Assets\Game 1 - Catch eggs\VolumetricLines\Shaders\_StripShader.cginc" />
+    <None Include="Assets\Game 3 - Marble game\Misc. Assets\Fantasy Skybox FREE\Readme.txt" />
+    <None Include="Assets\Game 3 - Marble game\Misc. Assets\LowPolyFantasyClouds\Shaders\CloudsShader.shader" />
     <None Include="Assets\Game 1 - Catch eggs\VolumetricLines\Shaders\Additive.shader" />
     <None Include="Assets\Game 1 - Catch eggs\VolumetricLines\Shaders\AlphaBlended.shader" />
+    <None Include="Assets\Game 3 - Marble game\Misc. Assets\Fantasy Skybox FREE\Fog and Ambient references.txt" />
     <None Include="Assets\Game 1 - Catch eggs\VolumetricLines\Shaders\Strip-Additive.shader" />
     <None Include="Assets\Game 1 - Catch eggs\VolumetricLines\Shaders\Fast-AlphaBlended.shader" />
     <None Include="Assets\Game 1 - Catch eggs\VolumetricLines\Shaders\Strip-AlphaBlended.shader" />
     <None Include="Assets\Game 1 - Catch eggs\VolumetricLines\Shaders\Fast-Additive.shader" />
+    <None Include="Assets\GE Common Assets\Readme.txt" />
     <None Include="Assets\Game 1 - Catch eggs\VolumetricLines\Shaders\_SimpleShader.cginc" />
     <Reference Include="Assembly-UnityScript-firstpass">
-      <HintPath>C:/Users/Syndi/Documents/GitHub/IntroGames/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+      <HintPath>C:/Users/Noah/Desktop/workspace/IntroGames/IntroGames/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/Syndi/Documents/GitHub/IntroGames/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Noah/Desktop/workspace/IntroGames/IntroGames/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Syndi/Documents/GitHub/IntroGames/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Noah/Desktop/workspace/IntroGames/IntroGames/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Syndi/Documents/GitHub/IntroGames/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Noah/Desktop/workspace/IntroGames/IntroGames/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Syndi/Documents/GitHub/IntroGames/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Noah/Desktop/workspace/IntroGames/IntroGames/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -307,10 +315,10 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/Syndi/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+      <HintPath>C:/Users/Noah/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/Syndi/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Noah/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
